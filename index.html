@@ -1,0 +1,284 @@
+<html><!DOCTYPE html>
+<head>
+    <title>Case Study</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>  
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+  <body>
+    <h3>
+      <span>Case Study between Google Lens and MobileNet
+      </span>
+      <br><br>
+      <span>Google Lens</span>
+      <img src="google">
+      <span class="btn btn-primary">MobileNet</span>
+    </h3>
+<ol>
+ <div class="test_image_and_result col-xs-12" >
+ <li class="col-sm-4 col-xs-12">
+  <b>Test Image-</b>
+   <img src="bag.png.jpg" class="img-responsive">
+    
+ </li>
+ 
+ <h5 class="col-sm-4 col-xs-12">
+  Output on <b>Google Lens</b>-
+  <span>skybag</span>
+ </h5>
+
+ <h5 class="col-sm-4 col-xs-12">
+  Output on <b>MobileNet Model</b>-
+  <span> bag</span>
+ </h5>
+
+ <div class="mini_result" class="col-xs-12">
+<h4>Result-</h4>
+<hr>
+<h4></h4>
+ </div>
+ </div>
+ <br>
+
+
+ <div class="test_image_and_result col-xs-12" >
+  <li class="col-sm-4 col-xs-12">
+   <b>Test Image-</b>
+    <img src="fan.png.jpg" class="img-responsive">
+     
+  </li>
+  
+  <h5 class="col-sm-4 col-xs-12">
+   Output on <b>Google Lens</b>-
+   <span>Ceilling fan</span>
+  </h5>
+ 
+  <h5 class="col-sm-4 col-xs-12">
+   Output on <b>MobileNet Model</b>-
+   <span>fan</span>
+  </h5>
+ 
+  <div class="mini_result" class="col-xs-12">
+ <h4>Result-</h4>
+ <hr>
+ <h4></h4>
+  </div>
+  </div>
+  <br>
+
+
+  <div class="test_image_and_result col-xs-12" >
+    <li class="col-sm-4 col-xs-12">
+     <b>Test Image-</b>
+      <img src="frigde.png.jpg" class="img-responsive">
+       
+    </li>
+    
+    <h5 class="col-sm-4 col-xs-12">
+     Output on <b>Google Lens</b>-
+     <span>corner unit</span>
+    </h5>
+   
+    <h5 class="col-sm-4 col-xs-12">
+     Output on <b>MobileNet Model</b>-
+     <span>frigde</span>
+    </h5>
+   
+    <div class="mini_result" class="col-xs-12">
+   <h4>Result-</h4>
+   <hr>
+   <h4></h4>
+    </div>
+    </div>
+    <br>
+
+
+    <div class="test_image_and_result col-xs-12" >
+      <li class="col-sm-4 col-xs-12">
+       <b>Test Image-</b>
+        <img src="mouse.png.jpg" class="img-responsive">
+         
+
+      </li>
+      
+      <h5 class="col-sm-4 col-xs-12">
+       Output on <b>Google Lens</b>-
+       <span>wireless optical mouse</span>
+      </h5>
+     
+      <h5 class="col-sm-4 col-xs-12">
+       Output on <b>MobileNet Model</b>-
+       <span>mouse</span>
+      </h5>
+     
+      <div class="mini_result" class="col-xs-12">
+     <h4>Result-</h4>
+     <hr>
+     <h4></h4>
+      </div>
+      </div>
+      <br>
+
+
+      <div class="test_image_and_result col-xs-12" >
+        <li class="col-sm-4 col-xs-12">
+         <b>Test Image-</b>
+          <img src="penholder.png.jpg" class="img-responsive">
+           
+        </li>
+        
+        <h5 class="col-sm-4 col-xs-12">
+         Output on <b>Google Lens</b>-
+         <span>holder</span>
+        </h5>
+       
+        <h5 class="col-sm-4 col-xs-12">
+         Output on <b>MobileNet Model</b>-
+         <span>penholder</span>
+        </h5>
+       
+        <div class="mini_result" class="col-xs-12">
+       <h4>Result-</h4>
+       <hr>
+       <h4></h4>
+        </div>
+        </div>
+        <br>
+
+        <div class="test_image_and_result col-xs-12" >
+          <li class="col-sm-4 col-xs-12">
+           <b>Test Image-</b>
+            <img src="pillow.png.jpg" class="img-responsive">
+             
+          </li>
+          
+          <h5 class="col-sm-4 col-xs-12">
+           Output on <b>Google Lens</b>-
+           <span>handmade cotton</span>
+          </h5>
+         
+          <h5 class="col-sm-4 col-xs-12">
+           Output on <b>MobileNet Model</b>-
+           <span>pillow</span>
+          </h5>
+         
+          <div class="mini_result" class="col-xs-12">
+         <h4>Result-</h4>
+         <hr>
+         <h4></h4>
+          </div>
+          </div>
+          <br>
+
+          <div class="test_image_and_result col-xs-12" >
+            <li class="col-sm-4 col-xs-12">
+             <b>Test Image-</b>
+              <img src="saltkeeper.jpg" class="img-responsive">
+               
+            </li>
+            
+            <h5 class="col-sm-4 col-xs-12">
+             Output on <b>Google Lens</b>-
+             <span>multi plast</span>
+            </h5>
+           
+            <h5 class="col-sm-4 col-xs-12">
+             Output on <b>MobileNet Model</b>-
+             <span>saltkeeper</span>
+            </h5>
+           
+            <div class="mini_result" class="col-xs-12">
+           <h4>Result-</h4>
+           <hr>
+           <h4></h4>
+            </div>
+            </div>
+            <br>
+
+            <div class="test_image_and_result col-xs-12" >
+              <li class="col-sm-4 col-xs-12">
+               <b>Test Image-</b>
+                <img src="stick.png.jpg" class="img-responsive">
+                 
+              </li>
+              
+              <h5 class="col-sm-4 col-xs-12">
+               Output on <b>Google Lens</b>-
+               <span>ceilling light</span>
+              </h5>
+             
+              <h5 class="col-sm-4 col-xs-12">
+               Output on <b>MobileNet Model</b>-
+               <span>stick</span>
+              </h5>
+             
+              <div class="mini_result" class="col-xs-12">
+             <h4>Result-</h4>
+             <hr>
+             <h4></h4>
+              </div>
+              </div>
+              <br>
+              <div class="test_image_and_result col-xs-12" >
+                <li class="col-sm-4 col-xs-12">
+                 <b>Test Image-</b>
+                  <img src="switchboard.png.jpg" class="img-responsive">
+                   
+                </li>
+                
+                <h5 class="col-sm-4 col-xs-12">
+                 Output on <b>Google Lens</b>-
+                 <span>switchboard</span>
+                </h5>
+               
+                <h5 class="col-sm-4 col-xs-12">
+                 Output on <b>MobileNet Model</b>-
+                 <span>switchboard</span>
+                </h5>
+               
+                <div class="mini_result" class="col-xs-12">
+               <h4>Result-</h4>
+               <hr>
+               <h4></h4>
+                </div>
+                </div>
+                <br>
+
+                <div class="test_image_and_result col-xs-12" >
+                  <li class="col-sm-4 col-xs-12">
+                   <b>Test Image-</b>
+                    <img src="tape.png.jpg" class="img-responsive">
+                     
+                  </li>
+                  
+                  <h5 class="col-sm-4 col-xs-12">
+                   Output on <b>Google Lens</b>-
+                   <span>Thrust water</span>
+                  </h5>
+                 
+                  <h5 class="col-sm-4 col-xs-12">
+                   Output on <b>MobileNet Model</b>-
+                   <span>tape</span>
+                  </h5>
+                 
+                  <div class="mini_result" class="col-xs-12">
+                 <h4>Result-</h4>
+                 <hr>
+                 <h4></h4>
+                  </div>
+                  </div>
+                  <br>
+</ol>
+
+<div class="copy_right_footer">
+    Developed by-Ishita garg
+</div>
+</body>
+</html>

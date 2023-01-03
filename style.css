@@ -1,0 +1,17 @@
+.copy_right_footer
+ {
+  position: fixed;
+  color: bisque;
+  bottom: 0;
+  width: 100%;
+  background-color: azure;
+  line-height: 3;
+  text-align: center;
+ }
+h3 {
+    text-align: center;
+}
+img {
+    width: 300px;
+    height: 100px;
+}
